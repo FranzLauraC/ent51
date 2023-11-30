@@ -19,22 +19,22 @@ console.log(pokemon);
     <div className='div__home'>
       <article className='article'>
       <img className='article__img' src={pokemon?.sprites.other["official-artwork"].front_default} alt="" />
-      <h2>{pokemon?.name}</h2>
+      <h2 className='name'>{pokemon?.name}</h2>
       <ul>
                     {
                         pokemon?.types.map(infoType => (
-                            <li key={infoType.type.url}>{infoType.type.name}</li>
+                            <li className='type' key={infoType.type.url}>{infoType.type.name}</li>
                         ))
                     }
                 </ul>
-                <ul>
+                <ul className='ul'>
                     {
                         pokemon?.abilities.map(infoAbilitie => (
                             <li key={infoAbilitie.ability.url}>{infoAbilitie.ability.name}</li>
                         ))
                     }
                 </ul>
-                <ul>
+                <ul className='ul__stat'>
                     {
                         pokemon?.stats.map(infoStat => (
                             <li key={infoStat.stat.url}>
