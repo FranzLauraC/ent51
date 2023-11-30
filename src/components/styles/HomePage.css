@@ -1,0 +1,46 @@
+
+.app{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__logo{
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    width: 65%;
+
+}
+.app__title-second{
+    color: red;
+    font-size: 5em;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.app__title-tree{
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.app__form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.app__input{
+
+    padding: 0.4em 1em ;
+    
+}
+.app__button{
+    display: block;
+    border: none;
+    width: 7em;
+    background-color: red;
+    padding: 0.4em;
+    color: white;
+    font-weight: 700;
+}

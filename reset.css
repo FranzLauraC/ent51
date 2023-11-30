@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nova+Square&display=swap');
+  
+*{
+    box-sizing: border-box;
+   
+}
+html{
+    font-family: 'Lato', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  list-style-type: none;
+  border: none;
+}
+input{
+    font-family: inherit;
+}
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+h1,h2,h1,ul,hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+img{
+    width: 100%;
+    display: block;
+}

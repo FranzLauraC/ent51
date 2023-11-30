@@ -1,0 +1,21 @@
+.div__home{
+    display: flex;
+    width: 75em;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.article__img{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 2em;
+    margin-top: -35%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    z-index:-1;
+   
+    
+}

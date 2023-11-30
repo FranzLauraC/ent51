@@ -1,0 +1,56 @@
+
+.divv{
+    width: 10em;
+    min-height: 10em;
+   
+   
+   
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 2em;
+   justify-content: space-between;
+   
+
+   
+}
+.article{
+    width: 100%;
+    max-width: 14em;
+    min-height: 25rem;
+    border-radius: 0.8em;
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+   justify-content: center;
+   
+}
+.article__header{
+    background-color: aqua;
+    height: 8em;
+    
+    
+}
+.article__sec{
+    margin-top: 2em;
+    
+}
+.article__h{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: red;
+    overflow:hidden;
+}
+.article__hr{
+    width: 100%;
+}
+.article__li{
+    overflow: hidden;
+
+}
