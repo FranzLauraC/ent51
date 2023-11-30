@@ -9,18 +9,20 @@
 .article{
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
 }
 .article__img{
     position: relative;
     display: flex;
     width: 100%;
+
     background-color: red;
-    margin-top: 35%;
+    
     display: flex;
     justify-content: center;
-    margin-bottom: 2em;
+   
     z-index:1;
-   margin-top:0;
+ 
    
     
 
