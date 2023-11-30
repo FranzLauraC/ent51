@@ -10,12 +10,12 @@
     position: relative;
     display: flex;
     width: 100%;
-    padding: 2em;
-    margin-top: -35%;
+    
+    margin-top: 35%;
     display: flex;
     justify-content: center;
     margin-bottom: 2em;
-    z-index:-1;
+    z-index:1;
    
     
 }
